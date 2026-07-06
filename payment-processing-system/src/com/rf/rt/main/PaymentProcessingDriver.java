@@ -32,7 +32,7 @@ public class PaymentProcessingDriver {
 		walletPayment.schedule(payByWallet);
 		walletPayment.cancelSchedule();
 
-		/********************* WALLET PAYMENT *****************************/
+		/********************* CASH PAYMENT *****************************/
 		CashPayment cashPayment = new CashPayment();
 		processor.process(cashPayment, 399);
 
